@@ -1,0 +1,70 @@
+* {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+}
+
+.parent {
+    display: flex;
+    height: 100vh;
+    justify-content: center;
+    align-items: center;
+}
+
+.lesson-planner {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.form-group {
+    padding: 10px;
+    border-radius: 50px;
+    width: 100%;
+    justify-content: center;
+}
+
+.user-panel {
+    background-color: #228dff;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    padding: 20px;
+    text-align: center;
+}
+
+.date-time {
+    margin-top: auto;
+    font-size: 1em;
+}
+
+.btn {
+    padding: 10px;
+    background-color: white;
+    color: black;
+    margin-bottom: 10px;
+    text-decoration: none;
+    width: 100%;
+}
+
+.edit-btn, .submit-btn {
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    margin: 20px;
+    padding: 20px;
+    border-radius: 50px;
+    background-color: #228dff;
+    text-decoration: none;
+    color: black;
+}
+
+.btn:hover {
+    background-color: black;
+}

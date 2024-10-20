@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Assignment editor</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+<div class="container parent">
+    <div class="lesson-planner">
+        <h2>New assignment</h2>
+        <form action="/assignment-editor" method="post">
+            <div class="form-group">
+                <label for="description">Description</label><br>
+                <textarea id="description" name="description" rows="3" required></textarea>
+            </div>
+            <div class="form-group">
+                <label for="teacher_id">Teacher ID</label><br>
+                <input type="number" id="teacher_id" name="teacher_id" required>
+            </div>
+            <div class="form-group">
+                <label for="class_id">Type</label><br>
+                <input type="text" id="type" name="type" required>
+            </div>
+            <div class="form-group">
+                <label for="duration">Due</label><br>
+                <input type="date" id="due" name="due" required>
+            </div>
+            <button class="submit-btn" type="submit">Create assignment</button>
+        </form>
+    </div>
+</div>
+</body>
+</html>
